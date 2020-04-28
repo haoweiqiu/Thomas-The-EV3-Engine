@@ -1,0 +1,6 @@
+site_name: Thomas the EV3 Engine
+repo_url: https://github.com/haoweiqiu/Thomas-The-EV3-Engine
+nav:
+    - Home: 'index.md'
+
+theme: readthedocs
