@@ -1,4 +1,4 @@
-# ECSE211 Ballistic Launcher Project
+# ECSE211 Ballistic Launcher Project [![Documentation Status](https://readthedocs.org/projects/thomas-the-ev3-engine/badge/?version=latest)](https://thomas-the-ev3-engine.readthedocs.io/en/latest/?badge=latest)
 
 This repository is a copy from the ECSE 211 Design Principal and Method Group Project. The original project repository was set to private access.
 
