@@ -1,7 +1,7 @@
-Testing
+Integration Testing
 ============
 
-The testing of the robot is composed of 3 parts: Hardware Test, Software Test and Integration Test. This section would conclude the results of the 3 integration test, which could conclude the software and hardware behavior of the robot design.
+The testing of the robot is composed of 4 parts: Integration Test, Hardware Test, Software Test and Integration Test. This section would conclude the overal behavior of the robot design before final competition.
 
 If you are interested in the implementation of the robot, please consult `Code Base`_ to get more information.
 
