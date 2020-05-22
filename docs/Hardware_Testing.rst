@@ -21,7 +21,7 @@ Procedure:
 - Measure the distance of the launch.
 - Repeat previous test for 10 times.
 
-Conclusion:
+Result Analysis:
 
 - The robot performance generally meets the specific outcomes. However, the physical configuration was found not stable enough and broke down after the test. Also, based on the data, the standard deviation of the final ball launch point was found to be high and therefore the precision of the launcher might not be high enough for project delivery.
 
@@ -40,7 +40,7 @@ Procedure:
 - Repeat previous test for 10 times.
 
 
-Conclusion:
+Result Analysis:
 
 - During the test, it was found that the attachment of the launcher components was still unstable to the point where the tester had to manually attach the launcher when the launcher parts were loosened. The loosening of parts of the launcher might be a great influence for the stability of the robot launching function. 
 

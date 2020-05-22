@@ -22,7 +22,7 @@ Procedure:
 - Repeat previous steps for 10 times.
 
 
-Conclusion:
+Result Analysis:
 
 - For the 360-degree turn, the error angle mean was found to be 18.10 and the error angle standard deviation was found to be 3.81, the turning is also not accurate enough. According to the data, this might be caused by the inequivalent load on left and right side of the robot, which leads to the robot tends to overturn on each turn.
 
@@ -41,7 +41,7 @@ Procedure:
 - Repeat previous test for 10 times.
 
 
-Conclusion:
+Result Analysis:
 
 - Since the Euclidean distance error mean was found to be 0.07 cm and the final angle error mean was found to be 0 degree, the accuracy of the rising edge localization is very high and is enough for project delivery. 
 
@@ -60,7 +60,7 @@ Procedure:
 - Repeat previous test for 10 times.
 
 
-Conclusion:
+Result Analysis:
 
 - It is found that the accuracy of the rising edge localization is very high and is accurate enough for project delivery. It is also found that the rising edge is preferable for the final competition rather than falling edge localization since with the data from the previous test, the rising edge localization was found to have smaller mean and standard deviation. 
 
@@ -79,7 +79,7 @@ Procedure:
 - Calculate the error distance.
 - Repeat the previous steps for another 9 trials.
 
-Conclusion:
+Result Analysis:
 
 - From the testing result, it was found that the error mean was 5.61 cm and the standard deviation of the error was found to be 3.30 cm. The accuracy of the obstacle avoidance is relatively high enough. 
 
@@ -97,6 +97,6 @@ Procedure:
 - Compute the Euclidean distance error and final angle error.
 - Change the orientation angle by increasing 45 degrees to previous orientation, repeat the previous steps.
 
-Conclusion:
+Result Analysis:
 
 - From all tests conducted, it was found that the current localization works accurately when the starting orientation angle is 0, 45, 180 and 225 degrees. The result shows that the current software design might have limitation on the starting orientation. 

@@ -1,7 +1,7 @@
 System
 ============
 
-The System report is composed of 2 parts: the Hardware side and the Software side.
+The System report is composed of 3 parts: the Hardware side, the Software side and the methodology.
 
 If you are interested in the implementation of the robot, please consult `Code Base`_ to get more information.
 

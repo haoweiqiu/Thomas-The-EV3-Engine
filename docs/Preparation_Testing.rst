@@ -22,7 +22,7 @@ Procedure:
 - Change the distance away from the wall, repeat the previous steps.
 - Calculate the error of the distance measured by the ultrasonic sensor.
 
-Conclusion:
+Result Analysis:
 
 - The robot performance generally meets the specific outcomes. The ultrasonic sensor is most accurate when facing head on, and the measured distance gradually becomes less accurate with increasing angle. Specifically, when the actual distance is 30 cm from the wall, the measurements trend follows the actual distance quite closely. This is the anticipated result, as the sensor has a more accurate operating range when it is between 20-50cm from the wall. It is important to mention that since random error with ultrasonic sensor might exist at different angles due to the cone shape of its ultrasonic sensory region, which may affect the result, and may not be entirely accurate.
 
@@ -42,7 +42,7 @@ Procedure:
 - Repeat previous steps 10 times
 
 
-Conclusion:
+Result Analysis:
 
 - The robot performance generally meets the specific outcomes. When robot was set to stop at distance of 20 cm, the error mean was found to be 18.14%. When robot was set to stop at distance of 30 cm, the error mean was found to be 21.03%. When robot was set to stop at distance of 40 cm, the error mean was found to be 20.14%. The trend follows the expected result. 
 
@@ -62,6 +62,6 @@ Procedure:
 - Change the distance from the color card and repeat previous steps. 
 
 
-Conclusion:
+Result Analysis:
 
 - The robot performance generally meets the specific outcomes. Since the color to be tested is red, therefore the red component should be close to value of 255 while value of green and blue should be close to 0. From the test, it can be seen that the value of red, green, and blue all decrease when the sensor to color card (ground) distance increases. When the sensor is closer to the color board, the red component is more accurate and therefore the color sensor should be placed as close to the ground as possible. Also, in terms of the red composition measured, distance at 15 mm was found to have the smallest standard deviation, and therefore the highest precision. In terms of the green composition measured, a distance of 15 mm was found to have the smallest standard deviation and therefore the highest precision. In terms of the blue composition measured, a distance of 10 mm was found to have the smallest standard deviation, and therefore the highest precision.
