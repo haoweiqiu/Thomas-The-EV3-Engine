@@ -43,7 +43,7 @@ Procedure:
 
 Conclusion:
 
-- : Since the Euclidean distance error mean was found to be 0.07 cm and the final angle error mean was found to be 0 degree, the accuracy of the rising edge localization is very high and is enough for project delivery. 
+- Since the Euclidean distance error mean was found to be 0.07 cm and the final angle error mean was found to be 0 degree, the accuracy of the rising edge localization is very high and is enough for project delivery. 
 
 
 Falling Edge Localization
