@@ -11,17 +11,17 @@ If you are interested in the implementation of the robot, please consult `Code B
 Hardware Concerns
 -----------------
 
-HEIGHT OF THE ROBOT
+- HEIGHT OF THE ROBOT
 
-- Since the height of the robot is restricted due to the presence of a tunnel on the final competition board, the launcher height needs to be considered. 
+Since the height of the robot is restricted due to the presence of a tunnel on the final competition board, the launcher height needs to be considered. 
 
-POSITION OF RUBBER TIRES
+- POSITION OF RUBBER TIRES
 
-- The wheels powered by the large motors could be positioned either under the EV3 brick (along with the motors) or on the sides. Both are viable options and testing could be done to decide on which configuration to use. 
+The wheels powered by the large motors could be positioned either under the EV3 brick (along with the motors) or on the sides. Both are viable options and testing could be done to decide on which configuration to use. 
 
-BACK-WHEEL POSITION(S) 
+- BACK-WHEEL POSITION(S) 
 
-- Our back-wheel could be positioned in the centre of the robot towards the rear, like in the previous labs of our team members. However, another possibility is to have 2 rear-mounted wheels (1 on each side of the robot). 
+Our back-wheel could be positioned in the centre of the robot towards the rear, like in the previous labs of our team members. However, another possibility is to have 2 rear-mounted wheels (1 on each side of the robot). 
 
 
 Adopted Mechanical Design
