@@ -50,7 +50,7 @@ Methodologies
 
 .. csv-table:: methodology list
    :header: "List of Problems", "Possible Solutions", "Final Decision"
-   :widths: 10, 10, 10
+   :widths: 15 15 15
 
    "1. Threads to be implemented", "Maximum 4 threads", "Odometer, Lightsensor, USPoller, Game – most functions run in game, sensors are used for obstacle avoidance and localization."
    "2. Launcher ", "Spring/Catapult/Wheel", "Spring: it is the easiest to implement, allows for extra motor for US sensor."
