@@ -23,9 +23,17 @@ Procedure:
 - Repeat the previous steps for 10 times.
 
 
-Result Analysis:
+Expected Result: 
+
+- The whole program should run correctly. 
+
+Conclusion:
 
 - For the test the location where the robot launches the ball, the mean for x coordinate was found to be 284.76 cm and the mean for y coordinate was found to be 129.84 cm. Since the standard deviation for the x coordinate was found to be 7.06 cm and for the y coordinate the standard deviation was found to be 11.98 cm, the accuracy is not enough for the final competition. From the launch result, it was found that the pass rate was only 10%, which means that the software needs to be improved immediately. 
+
+Action: 
+
+- The software team should fix the navigation feature as soon as possible. The hardware team should quickly find a way to fix the unbalance of weight. 
 
 
 Integration Test 2
@@ -52,7 +60,8 @@ Conclusion:
 
 Action: 
 
-- The software team should fix the navigation feature as soon as possible. The hardware team should quickly find a way to fix the unbalance of weight. 
+- The software team should continue fixing the navigation feature as soon as possible. The hardware team should also quickly find another way to fix the unbalance of weight.
+
 
 Integration Test 3
 -----------------
