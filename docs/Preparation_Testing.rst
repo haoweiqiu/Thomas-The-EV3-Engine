@@ -22,9 +22,22 @@ Procedure:
 - Change the distance away from the wall, repeat the previous steps.
 - Calculate the error of the distance measured by the ultrasonic sensor.
 
-Result Analysis:
+
+Expected Result: 
+
+- Most accurate facing head on, distance gradually becoming less accurate with increasing angle.
+
+Test Result: 
+
+- All angles incremented by 10 from -60 to 60 degrees were tested with the ultrasonic sensor at distance of 20cm, 30cm and 40cm from the wall. 
+
+Conclusion:
 
 - The robot performance generally meets the specific outcomes. The ultrasonic sensor is most accurate when facing head on, and the measured distance gradually becomes less accurate with increasing angle. Specifically, when the actual distance is 30 cm from the wall, the measurements trend follows the actual distance quite closely. This is the anticipated result, as the sensor has a more accurate operating range when it is between 20-50cm from the wall. It is important to mention that since random error with ultrasonic sensor might exist at different angles due to the cone shape of its ultrasonic sensory region, which may affect the result, and may not be entirely accurate.
+
+Action: 
+
+- The sensors will be used to detect and avoid obstacles from 30cm away from the wall, as that is the distance where the sensor is most accurate. Further tests need to be performed for verifying the accuracy of the ultrasonic sensor.  
 
 
 Ultrasonic Sensor Characterization Supplementary 
@@ -42,9 +55,17 @@ Procedure:
 - Repeat previous steps 10 times
 
 
-Result Analysis:
+Expected Result: 
 
-- The robot performance generally meets the specific outcomes. When robot was set to stop at distance of 20 cm, the error mean was found to be 18.14%. When robot was set to stop at distance of 30 cm, the error mean was found to be 21.03%. When robot was set to stop at distance of 40 cm, the error mean was found to be 20.14%. The trend follows the expected result. 
+- The ultrasonic sensor is more accurate when the sensor is placed closer to the wall.
+
+Conclusion: 
+
+- The robot performance generally meets the specific outcomes. When robot was set to stop at distance of 20 cm, the error mean was found to be 18.14%. When robot was set to stop at distance of 30 cm, the error mean was found to be 21.03%. When robot was set to stop at distance of 40 cm, the error mean was found to be 20.14%. The trend follows the expected result. However, it is important to mention that with the error mean result, the sensor accuracy was not found to be at the desired level: it is desired to have an error mean result of 5% or less. When considering the error standard deviation result, the precision of the sensor is found to be within the acceptable error mean. 
+
+Action: 
+
+- In order to raise the accuracy, one action that needs to be done by the software development team might be add an offset to the ultrasonic sensor reading to cover the sensor error. Another action that needs to be done by the hardware development team might be change the ultrasonic sensor. 
 
 
 Color Sensor Characterization 
@@ -62,6 +83,14 @@ Procedure:
 - Change the distance from the color card and repeat previous steps. 
 
 
-Result Analysis:
+Expected Result: 
+
+- The color sensor is more accurate when the sensor is placed closer to the ground. 
+
+Conclusion: 
 
 - The robot performance generally meets the specific outcomes. Since the color to be tested is red, therefore the red component should be close to value of 255 while value of green and blue should be close to 0. From the test, it can be seen that the value of red, green, and blue all decrease when the sensor to color card (ground) distance increases. When the sensor is closer to the color board, the red component is more accurate and therefore the color sensor should be placed as close to the ground as possible. Also, in terms of the red composition measured, distance at 15 mm was found to have the smallest standard deviation, and therefore the highest precision. In terms of the green composition measured, a distance of 15 mm was found to have the smallest standard deviation and therefore the highest precision. In terms of the blue composition measured, a distance of 10 mm was found to have the smallest standard deviation, and therefore the highest precision.
+
+Action: 
+
+- For hardware design, the color sensor should be placed as close to the ground as possible to raise accuracy and precision. Since the preparation tests for the project are over, the hardware and software design should proceed based on test results from the preparation tests. 
