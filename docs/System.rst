@@ -48,10 +48,18 @@ Methodologies
 - For the hardware design, 3 proposals were put forward with regards with how to build the launcher: a spring based launcher, an elastic band based launcher, and an instantaneous motor driven launcher. More details with pros and cons of each can be found in the hardware design document. 
 - Each design, whether software or hardware, was implemented in the current design due to its effectiveness, based on the availability of resources and reliability of each component. Tests were performed to prove the repeatability of each component over time.
 
-.. csv-table:: methodology list
-   :header: "List of Problems", "Possible Solutions", "Final Decision"
-   :widths: 15 15 15
-
-   "1. Threads to be implemented", "Maximum 4 threads", "Odometer, Lightsensor, USPoller, Game – most functions run in game, sensors are used for obstacle avoidance and localization."
-   "2. Launcher ", "Spring/Catapult/Wheel", "Spring: it is the easiest to implement, allows for extra motor for US sensor."
-   "3. Avoidance for obstacles versus opponent’s robot", "Bang Bang controller/P-Type controller", "Bang Bang: best for consistent avoidance of obstacles"
+=============================== ============================= =======================
+List of Problems                Possible Solutions            Final Decision
+=============================== ============================= =======================
+1. Threads to be implemented    Maximum 4 threads             | Odometer, Lightsensor,
+                                                              | USPoller, Game – most       
+                                                              | functions run in game,      
+                                                              | sensors are used for      
+                                                              | obstacle avoidance and localization. 
+2. Launcher                     | a) Spring                   | Spring: it is the easiest
+                                | b) Catapult                 | to implement, allows for 
+                                | c) Wheel                    | extra motor for US sensor. 
+3. Avoidance for obstacles      | a) Bang Bang controller     | Bang Bang: best for
+                                | b) P-Type controller        | consistent avoidance
+                                                              | of obstacles     
+=============================== ============================= =======================
